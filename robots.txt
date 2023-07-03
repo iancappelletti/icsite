@@ -1,2 +1,2 @@
-User-agent: Google-InspectionTool
-Disallow: /
+User-agent: *
+Disallow: 
