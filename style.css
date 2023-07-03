@@ -130,7 +130,7 @@ a{
 }
 
 .section-1 a{
-    font-size: 1.5rem;
+    ssfont-size: 1.5rem;
     padding: 10px;
 }
 /* section 2 */
@@ -189,6 +189,7 @@ a{
 }
 .section-mini {
 	padding: 9px;
+		background-color: #0e1111;
 }
 
 .section-mini a{
