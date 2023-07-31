@@ -56,7 +56,7 @@ h1{
 .name-other{
     color: #fff;
 	font-size: 2.22rem;
-	display:table;
+	display:table;	
 	width:100%;
 }
 
@@ -177,6 +177,14 @@ a{
 	padding-left:5px;
 	text-shadow: 0px 3px 2px rgba(37, 145, 158, 0.19);
 	
+}.modal-content h3 {
+    font-size: 2.1rem;
+	vertical-align: top;
+    margin-bottom: 10px;
+    color: #fff;
+	padding-left:5px;
+	text-shadow: 0px 3px 2px rgba(37, 145, 158, 0.19);
+	
 }
 
 .section-1a h3{
@@ -186,7 +194,7 @@ a{
 	
 	margin:5px;
 	display:table;
-	width:44%;
+	width:54%;
 	  border-bottom: 8px solid #b3cee5;
 	  margin-left:4px;
 	  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -283,4 +291,67 @@ a{
   background-color: #0e1111;
   width: 70%;
 }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+	
+  color: #fff;
+  background-color: #0e1111;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 2px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+    	  border-bottom: 8px solid #b3cee5;
+	  text-align:left;
+	  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+@media(max-width:780px){
+.modal-content {
+	
+  color: #fff;
+  
+  background-color: #0e1111;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 10px;
+  border: 2px solid #888;
+  width: 90%; /* Could be more or less, depending on screen size */
+    	  border-bottom: 8px solid #b3cee5;
+	  text-align:left;
+	  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.modal-content p{font-size: 13px;} .right { text-align:right; font-size:14px;}
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.right {
+	text-align:right;
+	
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
