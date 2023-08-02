@@ -13,18 +13,17 @@ img.rounded-corners {
   background-size: 50px 50px; /* adjust border length here */
   background-repeat: no-repeat;
   transition: .6s;
-  cursor: pointer;
 }
 
-.grid-2{
+.grid-2 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
 
-body{ 
+body { 
     margin: 0;
     padding: 0;
-font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto Mono', monospace;
     background-image: url("hero_digitalblue_1.jpg");
     color: #7A7C80;
 }
@@ -37,31 +36,34 @@ h1{
 	margin:5px;
 	display:table;
 	width:80%;
-  border-bottom: 8px solid #b3cee5;
-  margin-left:4px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	border-bottom: 8px solid #b3cee5;
+	margin-left:4px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
-.name1 {  display: flex;
-  justify-content: center;}
-.name{
+.name1 {  
+	display: flex;
+	justify-content: center;}
+	
+.name {
   background-color: #0e1111;
   width: 40%;
 }
+.name a {color:white; font-size: 1.8rem;}
+
 .name1a {  display: flex;
   justify-content: center;
   padding-top:3px;
   }
 
-.name-other{
+.name-other {
     color: #fff;
 	font-size: 2.22rem;
 	display:table;	
 	width:100%;
 }
 
-  
-h2{
+h2 {
     color: #fff;
 	font-size: 2.22rem;
 	background-color: #0e1111;
@@ -69,15 +71,14 @@ h2{
 	margin:5px;
 	display:table;
 	width:80%;
-	  border-bottom: 8px solid #b3cee5;
-	  margin-left:4px;
-	  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	border-bottom: 8px solid #b3cee5;
+	margin-left:4px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .section
 {
 	color: #fff;
-#	font-size: 2.22rem;
 	background-color: #0e1111;
 		padding: 9px;
 		  border-bottom: 8px solid #b3cee5;
@@ -120,7 +121,7 @@ a{
 }
 /* section 1 */
 .section-1{
-    padding-top: 22vh;
+    padding-top: 20vh;
     padding-bottom: 10vh;
     text-align: center;
 
@@ -153,7 +154,7 @@ a{
 }
 
 .section-1 a{
-	font-size: 2rem;
+	font-size: 1.8rem;
     padding: 10px;
 	    width: 48%;
 }
@@ -162,6 +163,7 @@ a{
     padding-top: 5vh;
     width: 88%;
 	display:block;
+	padding-bottom: 3vh;
 }
 
 .section-2 h2{
@@ -191,7 +193,7 @@ a{
     color: #fff;
 	font-size: 2.10rem;
 	background-color: #0e1111;
-	
+	padding:10px;
 	margin:5px;
 	display:table;
 	width:54%;
@@ -290,6 +292,13 @@ a{
 	.name{
   background-color: #0e1111;
   width: 70%;
+}
+.name-other{
+    color: #fff;
+	margin:5px;
+	font-size: 1.8rem;
+	display:table;	
+	width:100%;
 }
 }
 
