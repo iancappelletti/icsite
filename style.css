@@ -1,6 +1,13 @@
 /* global */
-
-
+.date-text {
+    display: none;
+}
+.date:hover .date-text {
+    display: inline;
+}
+.date:hover .arc {
+    display: none;
+}
 img.rounded-corners {
     --b: 2px; /* border thickness */
   --c: #0015 85%,rgba(37, 145, 158, 0.19); /* define the color here */
@@ -256,14 +263,13 @@ a{
     padding-left: 10px;
 }
 .section-mini {
-
 	padding: 9px;
-		background-color: #0e1111;
-		text-align: center;
+	background-color: #0e1111;
+	text-align: center;
 }
 
 .section-mini img {
-		padding-right: 4px;
+	padding-right: 4px;
 }
 
 .section-mini a{
@@ -316,6 +322,12 @@ a{
 	font-size: 1.8rem;
 	display:table;	
 	width:100%;
+}
+.section-mini {
+	flex-direction: column;
+		padding: 9px;
+	background-color: #0e1111;
+	text-align: center;
 }
 }
 
