@@ -1,4 +1,5 @@
 /* global */
+
 .date-text {
     display: none;
 }
@@ -78,8 +79,7 @@ h2 {
 	padding: 5px;
 	margin:5px;
 	display:table;
-	width:80%;
-	width:80%;
+	width:48%;
 		  border-bottom: 8px solid #b3cee5;
 		  margin-left:4px;
 	    border-radius: 10px;
@@ -139,7 +139,7 @@ a{
 /* section 1 */
 .section-1{
     padding-top: 3vh;
-    padding-bottom: 10vh;
+//    padding-bottom: 10vh;
     text-align: center;
 
 }
@@ -182,6 +182,7 @@ a{
     width: 88%;
 	display:block;
 	padding-bottom: 3vh;
+	padding-top:8vh;
 }
 
 .section-2 h2{
@@ -241,7 +242,7 @@ a{
     padding: 10px;
     margin: 5px;
     display: table;
-    width: 68%;
+    width: 48%;
     border-bottom: 8px solid #b3cee5;
     margin-left: 4px;
     border-radius: 10px;
@@ -323,6 +324,9 @@ a{
 
 /* media queries */
 @media(max-width:780px){
+	
+	h2, .section-1a section { width:80%}
+	
 .grid-2{
         grid-template-columns: 1fr;
     }
@@ -332,7 +336,9 @@ a{
     }
 .section-2{
         padding: 0;
-        padding-left: 1.5rem;
+    justify-content: center;
+        padding-left: 7%;
+		width:85%
     }
 	
 .name1 h1 {font-size:22px}
