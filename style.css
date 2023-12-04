@@ -37,26 +37,24 @@ body {
 
 h1{
     color: #fff;
-	font-size: 1.8rem;
-	background-color: #0e1111;
-	padding: 5px;
-	margin:5px;
-	display:table;
+	font-size: 1.6rem;
+//	background-color: #0e1111;
+//	display:table;
 	
-		  border-bottom: 8px solid #b3cee5;
-		  margin-left:4px;
-	    border-radius: 10px;
-    box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
-0px 50px 100px -20px rgba(50,50,93,0.25),
-0px 30px 60px 30px rgba(0,0,0,0.3);
+//		  border-bottom: 8px solid #b3cee5;
+//		  margin-left:4px;
+//	    border-radius: 10px;
+//    box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset, 0px 50px 100px -20px rgba(50,50,93,0.25), 0px 30px 60px 30px rgba(0,0,0,0.3);
 }
+
+	h1 a {color: #fff; font-size:22px}
 
 .name1 {  
 	display: flex;
 	justify-content: center;}
 	
 .name {
-  background-color: #0e1111;
+//  background-color: #0e1111;
   width: 40%;
 }
 .name a {color:white; font-size: 1.7rem;}
@@ -65,10 +63,10 @@ h1{
   justify-content: center;
   padding-top:3px;
   }
-
+  
 .name-other {
     color: #fff;
-	font-size: 2.22rem;
+//	font-size: 2.22rem;
 	display:table;	
 	width:100%;
 }
@@ -164,7 +162,7 @@ a{
 }
 
 .section-1a p{
-    font-size: 1.4rem;
+//    font-size: 1.4rem;
     margin:0;
 }
 
@@ -174,7 +172,8 @@ a{
 }
 
 .section-1 a{
-	font-size: 1.8rem;
+	text-align:center;
+	font-size: 1.6rem;
     padding: 10px;
 	    width: 48%;
 }
@@ -192,6 +191,7 @@ a{
 }
 
 .section-2 h3{
+	text-align:center;
     font-size: 1.6rem;
     margin-bottom: 10px;
     color: #fff;
@@ -269,7 +269,6 @@ a{
 }
 /* animations / utilities */
 .section-2 a:hover{
-    font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
     transition: 0.2s;
@@ -324,25 +323,22 @@ a{
 
 /* media queries */
 @media(max-width:780px){
-    .grid-2{
+.grid-2{
         grid-template-columns: 1fr;
     }
-    .section-1{
+.section-1{
         padding:0;
         padding-top: 2.7rem;
     }
-    .section-2{
+.section-2{
         padding: 0;
         padding-left: 1.5rem;
     }
 	
-		.section-1 a {align:center; font-size: 22px }
+.name1 h1 {font-size:22px}
 	
-	.name1 h1 {font-size:22px}
-	
-	
-	.name{
-  background-color: #0e1111;
+.name{
+//  background-color: #0e1111;
   width: 60%;
 }
 .name-other{
