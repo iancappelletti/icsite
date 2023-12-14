@@ -32,14 +32,15 @@ body {
     margin: 0;
     padding: 0;
 	font-family: 'Roboto Mono', monospace;
-    background-color: rgba(3, 77, 122, 1);
+    background-color: #cce2ff;
     color: #7A7C80;
 }
 
 h1{
-    color: #fff;
+    color: #000000;
+	text-shadow: 0px 3px 2px rgba(37, 145, 158, 0.19);
 	font-size: 1.6rem;
-//	background-color: #0e1111;
+//	background-color: #fff;
 //	display:table;
 	
 //		  border-bottom: 8px solid #b3cee5;
@@ -48,14 +49,14 @@ h1{
 //    box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset, 0px 50px 100px -20px rgba(50,50,93,0.25), 0px 30px 60px 30px rgba(0,0,0,0.3);
 }
 
-	h1 a {color: #fff; font-size:22px}
+	h1 a {color: #000000; font-size:22px}
 
 .name1 {  
 	display: flex;
 	justify-content: center;}
 	
 .name {
-//  background-color: #0e1111;
+//  background-color: #fff;
   width: 40%;
 }
 .name a {color:white; font-size: 1.7rem;}
@@ -66,16 +67,16 @@ h1{
   }
   
 .name-other {
-    color: #fff;
+    color: #000000;
 //	font-size: 2.22rem;
 	display:table;	
 	width:100%;
 }
 
 h2 {
-    color: #fff;
+    color: #000000;
 	font-size: 2.22rem;
-	background-color: #0e1111;
+	background-color: #fff;
 	padding: 5px;
 	margin:5px;
 	display:table;
@@ -90,8 +91,8 @@ h2 {
 
 .section
 {
-	color: #fff;
-	background-color: #0e1111;
+	color: #000000;
+	background-color: #fff;
 		padding: 9px;
 		  border-bottom: 8px solid #b3cee5;
 		  margin-left:4px;
@@ -111,7 +112,7 @@ ul {margin:0px;  list-style-type:none; padding: 0px}
 	font-size: 1.1rem;
             list-style:none;
 
-	background-color: #0e1111;
+	background-color: #fff;
 padding: 9px;
 		  border-bottom: 8px solid #b3cee5;
 		  margin-left:4px;
@@ -122,12 +123,12 @@ padding: 9px;
 }
 
 .section-2 li {
-	color: #fff;
-	background-color: #0e1111;
+	color: #000000;
+	background-color: #fff;
 }
 
 .white{
-    color: #fff;
+    color: #000000;
 	padding: 5px;
 	margin: 5px;
 }
@@ -188,14 +189,14 @@ a{
 .section-2 h2{
     font-size: 1.7rem;
     margin-bottom: 1px;
-    color: #fff;
+    color: #000000;
 }
 
 .section-2 h3{
 	text-align:center;
     font-size: 1.6rem;
     margin-bottom: 10px;
-    color: #fff;
+    color: #000000;
 	padding-left:5px;
 	text-shadow: 0px 3px 2px rgba(37, 145, 158, 0.19);
 	
@@ -203,7 +204,7 @@ a{
 .section-1 h4{
     font-size: 1.6rem;
     margin: 10px;
-    color: #fff;
+    color: #000000;
 	padding-left:5px;
 	text-shadow: 0px 3px 2px rgba(37, 145, 158, 0.19);
 	
@@ -213,16 +214,16 @@ a{
     font-size: 2.1rem;
 	vertical-align: top;
     margin-bottom: 10px;
-    color: #fff;
+    color: #000000;
 	padding-left:5px;
 	text-shadow: 0px 3px 2px rgba(37, 145, 158, 0.19);
 	
 }
 
 .section-1a h3{
-    color: #fff;
+    color: #000000;
 	font-size: 2.10rem;
-	background-color: #0e1111;
+	background-color: #fff;
 	padding:10px;
 	margin:5px;
 	display:table;
@@ -236,9 +237,9 @@ a{
 }
 
 .section-1a section {
-    color: #fff;
+    color: #000000;
     font-size: 2.10rem;
-    background-color: #0e1111;
+    background-color: #fff;
     padding: 10px;
     margin: 5px;
     display: table;
@@ -270,13 +271,13 @@ a{
 }
 /* animations / utilities */
 .section-2 a:hover{
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .section-1 a:hover{
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -287,7 +288,7 @@ a{
 }
 .section-mini {
 	padding: 9px;
-	background-color: #0e1111;
+	background-color: #fff;
 	text-align: center;
 }
 
@@ -306,7 +307,7 @@ a{
 .section-mini a:hover{
 	
     font-size: 1.3rem;
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -318,7 +319,7 @@ a{
   margin-bottom: 15px;
   border: 1px solid #D3D3D3;
   clear: both;
-  background-color: gray;
+  background-color: #e8f0fe;
   margin-left: 4px;
 }
 
@@ -344,11 +345,11 @@ a{
 .name1 h1 {font-size:22px}
 	
 .name{
-//  background-color: #0e1111;
+//  background-color: #fff;
   width: 60%;
 }
 .name-other{
-    color: #fff;
+    color: #000000;
 	margin:5px;
 	font-size: 1.8rem;
 	display:table;	
@@ -357,7 +358,7 @@ a{
 .section-mini {
 	flex-direction: column;
 		padding: 9px;
-	background-color: #0e1111;
+	background-color: #fff;
 	text-align: center;
 }
 }
@@ -380,8 +381,8 @@ a{
 /* Modal Content/Box */
 .modal-content {
 	
-  color: #fff;
-  background-color: #0e1111;
+  color: #000000;
+  background-color: #fff;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 2px solid #888;
@@ -393,9 +394,9 @@ a{
 @media(max-width:780px){
 .modal-content {
 	
-  color: #fff;
+  color: #000000;
   
-  background-color: #0e1111;
+  background-color: #fff;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 10px;
   border: 2px solid #888;
