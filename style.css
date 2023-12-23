@@ -13,12 +13,12 @@ img.rounded-corners {
     --b: 2px; /* border thickness */
   --c: #0015 85%,rgba(37, 145, 158, 0.19); /* define the color here */
   padding: 3px;
-  background:
+/*  background:
     conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--c)) 0    0,
     conic-gradient(from 180deg at top    var(--b) right var(--b),var(--c)) 100% 0,
     conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--c)) 0    100%,
     conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--c)) 100% 100%;
-  background-size: 50px 50px; /* adjust border length here */
+  background-size: 50px 50px; adjust border length here */
   background-repeat: no-repeat;
   transition: .6s;
 }
@@ -32,7 +32,7 @@ body {
     margin: 0;
     padding: 0;
 	font-family: 'Roboto Mono', monospace;
-    background-color: #cce2ff;
+    
     color: #7A7C80;
 }
 
@@ -40,26 +40,28 @@ h1{
     color: #000000;
 	text-shadow: 0px 3px 2px rgba(37, 145, 158, 0.19);
 	font-size: 1.6rem;
-//	background-color: #fff;
-//	display:table;
-	
-//		  border-bottom: 8px solid #b3cee5;
-//		  margin-left:4px;
-//	    border-radius: 10px;
-//    box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset, 0px 50px 100px -20px rgba(50,50,93,0.25), 0px 30px 60px 30px rgba(0,0,0,0.3);
+			  border-left: 8px solid #b3cee5;
+		  margin-left:4px;
+	    border-radius: 10px;
 }
 
 	h1 a {color: #000000; font-size:22px}
+
+.p2 {
+    font-size: 1.1rem;
+    padding-bottom: 25px;
+    margin-left:4px;
+}
+
 
 .name1 {  
 	display: flex;
 	justify-content: center;}
 	
 .name {
-//  background-color: #fff;
-  width: 40%;
+  width: 35%;
 }
-.name a {color:white; font-size: 1.7rem;}
+.name a {color:black; font-size: 1.7rem;}
 
 .name1a {  display: flex;
   justify-content: center;
@@ -76,31 +78,34 @@ h1{
 h2 {
     color: #000000;
 	font-size: 2.22rem;
-	background-color: #fff;
-	padding: 5px;
+	background-color: ;
+	padding-bottom: 25px;
 	margin:5px;
 	display:table;
 	width:48%;
 		  border-bottom: 8px solid #b3cee5;
 		  margin-left:4px;
 	    border-radius: 10px;
-    box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
+/*    box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
 0px 50px 100px -20px rgba(50,50,93,0.25),
-0px 30px 60px 30px rgba(0,0,0,0.3);
+0px 30px 60px 30px rgba(0,0,0,0.3);*/
 }
-
+.pad {
+	padding-bottom: 9px;
+}
 .section
 {
 	color: #000000;
-	background-color: #fff;
+	background-color: ;
 		padding: 9px;
 		  border-bottom: 8px solid #b3cee5;
 		  margin-left:4px;
 	    border-radius: 10px;
-    box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
+/*    box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
 0px 50px 100px -20px rgba(50,50,93,0.25),
-0px 30px 60px 30px rgba(0,0,0,0.3);
+0px 30px 60px 30px rgba(0,0,0,0.3); */
 }
+
 .section a {
     font-size: 1.1rem;
     color: #7A7C80;
@@ -108,24 +113,28 @@ h2 {
     transition: 0.2s;
 }
 ul {margin:0px;  list-style-type:none; padding: 0px}
+.section-2 p {padding-bottom: 10px;}
 .section-2 ul {
 	font-size: 1.1rem;
             list-style:none;
 
-	background-color: #fff;
+	background-color: ;
 padding: 9px;
 		  border-bottom: 8px solid #b3cee5;
 		  margin-left:4px;
 	    border-radius: 10px;
+/*
     box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
 0px 50px 100px -20px rgba(50,50,93,0.25),
-0px 30px 60px 30px rgba(0,0,0,0.3);
+0px 30px 60px 30px rgba(0,0,0,0.3); */
 }
 
 .section-2 li {
 	color: #000000;
-	background-color: #fff;
+	background-color: ;
 }
+
+.section p {padding-bottom: 9px;}
 
 .white{
     color: #000000;
@@ -169,7 +178,7 @@ a{
 
 .section-1 h2{
     font-size: 1.4rem;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 .section-1 a{
@@ -223,39 +232,41 @@ a{
 .section-1a h3{
     color: #000000;
 	font-size: 2.10rem;
-	background-color: #fff;
+	background-color: ;
 	padding:10px;
 	margin:5px;
 	display:table;
-	width:68%;
+/*	width:68%;
 		  border-bottom: 8px solid #b3cee5;
 		  margin-left:4px;
 	    border-radius: 10px;
-    box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
+		box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
 0px 50px 100px -20px rgba(50,50,93,0.25),
-0px 30px 60px 30px rgba(0,0,0,0.3);
+0px 30px 60px 30px rgba(0,0,0,0.3); */
 }
 
 .section-1a section {
     color: #000000;
     font-size: 2.10rem;
-    background-color: #fff;
-    padding: 10px;
+    background-color: ;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 18px;
     margin: 5px;
     display: table;
     width: 48%;
     border-bottom: 8px solid #b3cee5;
     margin-left: 4px;
     border-radius: 10px;
-    box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset, 0px 50px 100px -20px rgba(50,50,93,0.25), 0px 30px 60px 30px rgba(0,0,0,0.3);
+/*    box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset, 0px 50px 100px -20px rgba(50,50,93,0.25), 0px 30px 60px 30px rgba(0,0,0,0.3); */
 }
 
-.section-2 p{
-	
+.section-2 p {
     font-size: 1.1rem;
-    padding-bottom: 10px;
+    padding-top: 0px;
+	padding-bottom: 25px;
     margin-left:4px;
-	
 }
 
 .section-2 img {
@@ -288,7 +299,7 @@ a{
 }
 .section-mini {
 	padding: 9px;
-	background-color: #fff;
+	background-color: ;
 	text-align: center;
 }
 
@@ -345,8 +356,8 @@ a{
 .name1 h1 {font-size:22px}
 	
 .name{
-//  background-color: #fff;
-  width: 60%;
+  width: 67%;
+  padding: 0px;
 }
 .name-other{
     color: #000000;
@@ -354,11 +365,13 @@ a{
 	font-size: 1.8rem;
 	display:table;	
 	width:100%;
+	
+		padding: 9px;
 }
 .section-mini {
 	flex-direction: column;
 		padding: 9px;
-	background-color: #fff;
+	background-color: ;
 	text-align: center;
 }
 }
@@ -382,28 +395,28 @@ a{
 .modal-content {
 	
   color: #000000;
-  background-color: #fff;
+  background-color: ;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 2px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
     	  border-bottom: 8px solid #b3cee5;
 	  text-align:left;
-	  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+/*	  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
 }
 @media(max-width:780px){
 .modal-content {
 	
   color: #000000;
   
-  background-color: #fff;
+  background-color: ;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 10px;
   border: 2px solid #888;
   width: 90%; /* Could be more or less, depending on screen size */
     	  border-bottom: 8px solid #b3cee5;
 	  text-align:left;
-	  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+/*	  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; /*
 }
 .modal-content p{font-size: 13px;} .right { text-align:right; font-size:14px;}
 }
