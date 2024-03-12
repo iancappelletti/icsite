@@ -5,3 +5,5 @@
   
 /etc/*
   X-Robots-Tag: nofollow
+/testing/test.pdf
+  Link: <https://www.whatever.com/test2.pdf>; rel=canonical
