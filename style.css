@@ -10,6 +10,7 @@
     display: none;
 }
 img.rounded-corners {
+	text-align: center;
     --b: 2px; /* border thickness */
   --c: #0015 85%,rgba(37, 145, 158, 0.19); /* define the color here */
   padding: 3px;
@@ -37,9 +38,11 @@ body {
 }
 
 h1{
-    color: #000000;
-	text-shadow: 5px 3px 2px rgba(37, 145, 158, 0.19);
-	font-size: 2.5vh;
+text-align: center;  
+  color: #000000;
+	    margin: 10px;
+	padding-left:5px;
+	text-shadow: 0px 3px 2px rgba(37, 145, 158, 0.19);	font-size: 2.5vh;
 
 }
 
@@ -72,11 +75,19 @@ h1{
 	display:table;	
 	width:100%;
 }
+picture {
+text-align: center;
+}/*
+padding-bottom: 5px;
+	margin:5px;
+			  margin-left:4px;
+	    border-radius: 10px;
 
+			  border-bottom: 8px solid #b3cee5;
+}*/
 h2 {
     color: #000000;
 	font-size: 2.22rem;
-	background-color: ;
 	padding-bottom: 25px;
 	margin:5px;
 	display:table;
@@ -149,7 +160,7 @@ a{
 .section-1{
     padding-top: 3vh;
 //    padding-bottom: 10vh;
-    text-align: center;
+    
 
 }
 .section-
@@ -178,6 +189,7 @@ a{
 .section-1 h2{
     font-size: 1.4rem;
     margin-bottom: 18px;
+	text-align: center;
 }
 
 .section-1 a{
@@ -200,15 +212,7 @@ a{
     color: #000000;
 }
 
-.section-2 h3{
-	text-align:center;
-    font-size: 1.6rem;
-    margin-bottom: 10px;
-    color: #000000;
-	padding-left:5px;
-	text-shadow: 0px 3px 2px rgba(37, 145, 158, 0.19);
-	
-}
+
 .section-1 h4{
     font-size: 1.6rem;
     margin: 10px;
@@ -216,6 +220,26 @@ a{
 	padding-left:5px;
 	text-shadow: 0px 3px 2px rgba(37, 145, 158, 0.19);
 	
+}
+
+h3	{
+	text-align:center;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #000000;
+	padding-left:5px;
+    display: inline-block;
+    border: 3px solid #b3cee5;
+    padding-left: 5px;
+    padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    position: relative;
+    bottom: 1px
+}
+
+.section-1 h3 p{
+		font-size: 1.6rem;
 }
 
 .modal-content h3 {
@@ -226,22 +250,6 @@ a{
 	padding-left:5px;
 	text-shadow: 0px 3px 2px rgba(37, 145, 158, 0.19);
 	
-}
-
-.section-1a h3{
-    color: #000000;
-	font-size: 2.10rem;
-	background-color: ;
-	padding:10px;
-	margin:5px;
-	display:table;
-/*	width:68%;
-		  border-bottom: 8px solid #b3cee5;
-		  margin-left:4px;
-	    border-radius: 10px;
-		box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
-0px 50px 100px -20px rgba(50,50,93,0.25),
-0px 30px 60px 30px rgba(0,0,0,0.3); */
 }
 
 .section-1a section {
@@ -260,6 +268,30 @@ a{
     border-radius: 10px;
 /*    box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset, 0px 50px 100px -20px rgba(50,50,93,0.25), 0px 30px 60px 30px rgba(0,0,0,0.3); */
 }
+
+.section-1a h3{				
+/*.    color: #000000;
+	font-size: 2.10rem;
+	background-color: ;
+	padding:10px;
+	margin:5px;
+	display:table;
+	width:68%;
+		  border-bottom: 8px solid #b3cee5;
+		  margin-left:4px;																																			
+	    border-radius: 10px;
+		box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
+0px 50px 100px -20px rgba(50,50,93,0.25),
+0px 30px 60px 30px rgba(0,0,0,0.3); */
+    border: 3px solid #b3cee5;
+    padding-left: 5px;
+    padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    position: relative;
+    bottom: 1px	
+}
+
 
 .section-2 p {
     font-size: 1.1rem;
@@ -285,7 +317,7 @@ a{
     cursor: pointer;
     transition: 0.2s;
 }
-
+	
 .section-1 a:hover{
     color: #000000;
     cursor: pointer;
@@ -340,7 +372,29 @@ a{
 	
 .grid-2{
         grid-template-columns: 1fr;
-    }																																																																																																																																																																																																																																																																																																	
+    }																																								.section-1a h3{				
+/*.    color: #000000;
+	font-size: 2.10rem;
+	background-color: ;
+	padding:10px;
+	margin:5px;
+	display:table;
+	width:68%;
+		  border-bottom: 8px solid #b3cee5;
+		  margin-left:4px;																																			
+	    border-radius: 10px;
+		box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
+0px 50px 100px -20px rgba(50,50,93,0.25),
+0px 30px 60px 30px rgba(0,0,0,0.3); */
+    border: 3px solid #b3cee5;
+    padding-left: 5px;
+    padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    position: relative;
+    bottom: 1px;
+	margin-left: 23px;
+}								
 .section-1{
         padding:0;
         padding-top: 2.7rem;
@@ -355,7 +409,7 @@ a{
 .name1 h1 {font-size:3vh}
 	
 .name{
-  width: 300px;
+	width: 300px;
   padding: 0px;
   font-size:1.6vh;
 }
@@ -402,7 +456,32 @@ a{
 	  text-align:left;
 /*	  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
 }
-@media(max-width:780px){
+@media(min-width:780px){
+
+.section-1a h3{				
+/*.    color: #000000;
+	font-size: 2.10rem;
+	background-color: ;
+	padding:10px;
+	margin:5px;
+	display:table;
+	width:68%;
+		  border-bottom: 8px solid #b3cee5;
+		  margin-left:4px;																																			
+	    border-radius: 10px;
+		box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
+0px 50px 100px -20px rgba(50,50,93,0.25),
+0px 30px 60px 30px rgba(0,0,0,0.3); */
+	margin-left: 180px;
+
+    border: 3px solid #b3cee5;
+    padding-left: 5px;
+    padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    position: relative;
+    bottom: 1px	
+}
 .modal-content {
 	
   color: #000000;
