@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv='content-language' content='en-us'> 																											
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<iframe src="https://player.vimeo.com/video/164562375?portrait=0&badge=0&autoplay=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+As a web developer with over 20 years of experience, I've seen how the evolution of web technologies has continuously changed the way we deliver content. Video embeds, while incredibly valuable for providing rich, engaging media to users, can sometimes create significant challenges for search engine bots like Googlebot. Here’s why video embeds can be problematic and how we can mitigate those issues:
+
+1. Non-Indexable Content
+Googlebot primarily works by crawling and indexing text content. When it comes to video embeds, particularly those hosted externally (e.g., YouTube, Vimeo), the actual content of the video isn’t directly visible to Googlebot. This means that the bot often can't “see” the substance of the video unless specific schema markup or metadata is used. As a result, embedded video content can fail to contribute to the overall SEO value of a page unless properly optimized.
+
+Solution: Use structured data (such as Schema.org VideoObject) to help Googlebot understand the video’s context, duration, and other key details. Transcripts or subtitles can also help improve indexability by providing text-based content related to the video.
+
+2. JavaScript-Heavy Embeds
+Many modern video embeds rely on JavaScript to load dynamically. Googlebot is capable of rendering JavaScript, but the process can be slow or incomplete depending on how complex the script is. JavaScript-heavy embeds can result in videos not being fully indexed or recognized by Googlebot during the initial crawl.
