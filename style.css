@@ -33,7 +33,7 @@ body {
     margin: 0;
     padding: 0;
 	font-family: 'Roboto Mono', monospace;
-    font-size: 1.2rem
+    font-size: 1.2rem;
     color: #7A7C80;
 }
 
@@ -74,6 +74,11 @@ text-align: center;
     color: #000000;
 	display:table;	
 	width:100%;
+}
+.name-other1 {
+    color: #000000;
+	display:table;	
+	width:100%;
 	text-align:center;
 }
 picture {
@@ -107,7 +112,6 @@ h2 {
 .section
 {
 	color: #000000;
-	background-color: ;
 		padding: 9px;
 		  border-bottom: 8px solid #b3cee5;
 		  margin-left:4px;
@@ -132,13 +136,11 @@ ul a {font-size: 1.4rem}
 .section-2 p {padding-bottom: 10px;}
 .section-2 ul {
 	font-size: 1.1rem;
-            list-style:none;
-
-	background-color: ;
-padding: 9px;
-		  border-bottom: 8px solid #b3cee5;
-		  margin-left:4px;
-	    border-radius: 10px;
+    list-style:none;
+    padding: 9px;
+	border-bottom: 8px solid #b3cee5;
+	margin-left:4px;
+	border-radius: 10px;
 /*
     box-shadow: 5px 1px 1px 0px rgba(255,255,255,0.1) inset,
 0px 50px 100px -20px rgba(50,50,93,0.25),
@@ -147,7 +149,6 @@ padding: 9px;
 
 .section-2 li {
 	color: #000000;
-	background-color: ;
 }
 
 .section p {padding-bottom: 9px;}
@@ -177,11 +178,6 @@ a{
 
 .section-1 p{
     font-size: 1.1rem;
-    margin:0;
-}
-
-.section-1a p{
-//    font-size: 1.4rem;
     margin:0;
 }
 
@@ -251,7 +247,6 @@ h3	{
 .section-1a section {
     color: #000000;
     font-size: 2.10rem;
-    background-color: ;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -326,7 +321,6 @@ h3	{
 }
 .section-mini {
 	padding: 9px;
-	background-color: ;
 	text-align: center;
 }
 
@@ -423,7 +417,6 @@ h3	{
 .section-mini {
 	flex-direction: column;
 		padding: 9px;
-	background-color: ;
 	text-align: center;
 }
 }
@@ -492,8 +485,6 @@ h3	{
 .modal-content {
 	
   color: #000000;
-  
-  background-color: ;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 10px;
   border: 2px solid #888;
@@ -532,4 +523,4 @@ h3	{
     box-shadow: 0px 1px 1px 0px rgba(255,255,255,0.1) inset,
 0px 50px 100px -20px rgba(50,50,93,0.25),
 0px 30px 60px -30px rgba(0,0,0,0.3);
-  }
+}}}
