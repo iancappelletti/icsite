@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://iancappelletti.com/</loc>
+  <lastmod>2025-07-18T04:57:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://iancappelletti.com/rime-mariner-video</loc>
+  <lastmod>2025-07-18T04:57:46+00:00</lastmod>
+  <priority>0.80</priority>
+  <video:video>
+      <video:thumbnail_loc>https://i.vimeocdn.com/video/2025359894-124a6e995b82f7261e0f14df7bcfc688095fd7d7766ef9f0c5129e900b5d8587-d?f=webp</video:thumbnail_loc>
+      <video:title>Rime of the Ancient Mariner (in pirate-speak)</video:title>
+      <video:description>
+        A rendition of the public domain poem, "The Rime of the Ancient Mariner", set to some New England aerial footage. The original text was "translated" into pseudo-swashbuckling pirate-speak. This is a silly exercise, but maybe someone with a penchant for Dread Pirate Roberts will enjoy it?
+      </video:description>
+      <video:player_loc>
+        https://player.vimeo.com/video/1092311242?h=da199268e
+      </video:player_loc>
+      <video:duration>1801</video:duration>
+      <video:publication_date>2025-06-10T21:29:23-04:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+  </video:video>
+</url>
+</urlset>
