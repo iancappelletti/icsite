@@ -112,7 +112,7 @@ h2 {
 	font-size: 1.22rem;
 	text-shadow: 0px 3px 2px rgba(37, 145, 158, 0.19);
 	    margin: 10px;
-	padding-left:20px;
+	padding-left:0px;
 
 /*    box-shadow: 0.5px 0.5px 0.5px 0px rgba(255,255,255,0.1) inset,
 
@@ -504,6 +504,10 @@ padding:9px;
 
 h1 {
   padding-left:20px;
+}
+
+h2 {
+  padding-left:20px;    
 }
 }
 
