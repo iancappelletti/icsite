@@ -12,7 +12,7 @@ A common performance optimization is lazy loading, where the video is loaded onl
 
 Solution: Implement lazy loading carefully, ensuring that there’s a fallback mechanism like a static thumbnail or an explicit link to the video. Structured data should still be used to inform Googlebot about the presence of a video even if it’s loaded dynamically.
 
-4. External Host Dependencies
+4. External Host Dependencies like a <a href="https://iancappelletti.com/rime-mariner-video">video recitation of the Rime of the Ancient Mariner (in pirate-speak)</a>
 When embedding videos from external platforms like YouTube or Vimeo, you’re essentially relying on those platforms for content delivery and SEO. While these platforms do optimize for search engines, you lose direct control over the video’s metadata and how it's presented to Googlebot. If, for any reason, the external service fails or is slow to respond, it can negatively impact your page’s SEO performance.
 
 Solution: Self-hosting videos can give you full control over the metadata and indexing. However, this comes with its own challenges, such as the need for appropriate compression, CDN distribution, and video optimization to prevent performance hits. If external hosting is the only option, ensure you include rich metadata in your HTML for Googlebot to crawl.
