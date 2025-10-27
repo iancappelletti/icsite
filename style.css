@@ -121,7 +121,7 @@ h2 {
 .pad {
 	padding-bottom: 9px;
 }
-.section
+.section, .section-btm
 {
 	color: #000000;
 		padding: 9px;
@@ -130,8 +130,9 @@ h2 {
 	    border-radius: 5px;
         box-shadow: 0.5px 0.5px 0.5px 0px rgba(255,255,255,0.1) inset,  0px 5px 5px 5px rgba(0,0,0,0.3);
 }
+.section-btm {text-align: center;grid-template-columns: 1fr 1fr;}
 
-.section a {
+.section a, .section-btm a {
     font-size: 1.1rem;
     color: #7A7C80;
     cursor: pointer;
