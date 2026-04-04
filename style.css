@@ -24,7 +24,7 @@ a {
 .header-content {
   align-items: center;
   border-bottom: 8px solid #b3cee5;
-  padding: 4px 0 6px 0;
+  padding: 4px 0 6px 30px;
   width: 100%;
   overflow: hidden;
 }
@@ -86,7 +86,7 @@ h3 {
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 1.44rem;
   width: 100%;
   min-width: 0;
 }
@@ -190,7 +190,7 @@ h3 {
   line-height: 1.7;
   list-style: none;
   padding: 12px 14px;
-  margin: 0 0 0 4px;
+  margin: 0 0 0 80px;
   border-bottom: 8px solid #b3cee5;
   border-radius: 5px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -221,7 +221,7 @@ h3 {
   color: #000000;
   padding: 12px 14px;
   border-bottom: 8px solid #b3cee5;
-  margin-left: 4px;
+  margin-left: 80px;
   border-radius: 5px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
@@ -517,6 +517,7 @@ ul a { font-size: 1.2rem; }
 
   .header-content {
     text-align: center;
+      padding: 0px;
   }
 
   .grid-2 {
@@ -533,7 +534,8 @@ ul a { font-size: 1.2rem; }
   .section-1a section {
     display: block;
     width: calc(100% - 16px);
-    margin: 0 8px 12px 8px;
+    margin: 0 15px 12px 15px;
+    padding: 0 15px 3vh 15px;
   }
 
   .section-1a h3 {
