@@ -26,6 +26,7 @@ Boston SEO Consultant
 
 - [CloudFlare AI Metrics Report Export](https://github.com/iancappelletti/cloudflare-ai-metrics-report-export)
 - [YouTube Watch Tracker](https://github.com/iancappelletti/YouTube-Watch-Tracker)
+- [Broken Link Scanner](https://github.com/iancappelletti/broken_link_scanner)
 
 ---
 
