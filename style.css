@@ -484,6 +484,20 @@ ul a { font-size: 1.2rem; }
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
 }
 
+@media (min-width: 768px) {
+  .section,
+  .section-btm,
+  .section-2-skills {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .section-1a section {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
 @media (min-width: 780px) {
   .section-1a h3 {
     margin-left: 180px;
