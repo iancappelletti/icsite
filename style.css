@@ -337,12 +337,15 @@ img {
 }
 
 img.rounded-corners {
+  /* Existing properties */
   text-align: center;
-  --b: 2px;
-  --c: #0015 85%, rgba(37, 145, 158, 0.19);
   padding: 3px;
   background-repeat: no-repeat;
-  transition: 0.6s;
+  transition: all 0.6s ease-in-out;
+  background-image: linear-gradient(white, white), 
+                    linear-gradient(135deg, #4A4C50, #0015); /* Utilizes existing color palette */
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .pad       { padding-bottom: 9px; }
