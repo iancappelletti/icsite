@@ -32,7 +32,7 @@ Boston SEO Consultant
 
 ### About
 
-Ian Cappelletti — that's me! — is a senior digital marketing manager with 12+ years of experience managing campaigns and technical optimization projects across a wide range of verticals. Residing in the Greater Boston Area, I live and breathe digital marketing.
+Ian Cappelletti — that's me! — is a senior digital marketing manager with 14+ years of experience managing campaigns, enterprise websites, and technical optimization projects across a wide range of verticals. Residing in the Greater Boston Area, I live and breathe digital marketing.
 
 My areas of expertise include organic search, content marketing, digital analytics (with an emphasis on conversion tracking), and paid search. For organic search, my primary focuses lie in technical SEO (site architecture, crawl budget optimization, site performance), local SEO (Google Business Profiles), and ecommerce SEO (Google Shopping, Merchant Center).
 
